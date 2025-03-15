@@ -33,7 +33,7 @@ class ParallaxFlowDelegateHorizontal extends FlowDelegate {
     final scrollFraction =
         (listItemOffset.dx / viewportDimension).clamp(0.0, 1.8);
 
-    final horizontalAlignment = Alignment(scrollFraction * 3 - 1, 1.0);
+    final horizontalAlignment = Alignment(scrollFraction * 8 - 1, 1.5);
 
     final bgSize =
         (imageKey.currentContext!.findRenderObject() as RenderBox).size;
